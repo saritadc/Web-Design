@@ -1,3 +1,77 @@
+*{margin:0px; padding: 0px}
 body{
 	background:url(../images/bg.jpg) repeat-x #bebebe;
+}
+.page{
+	width: 940px;
+	margin: auto;
+	background: #ffffff;
+
+}
+header{
+	height: 140px;
+	border-bottom: 10px solid #bebebe;
+}
+.logo{
+	float: left;
+}
+.right{
+	float: right;
+	color: #054494;
+	text-align: right;
+	padding: 10px;
+}
+.banner{
+	height: 360px;
+}
+.main{
+	height: auto;
+	padding: 15px;
+	overflow: hidden;
+}
+.m-left{
+	float: left;
+	width: 60%;
+	border-right: 1px dotted ;
+	padding-right: 50px;
+
+}
+.m-right{
+	width: 30%;
+	float: right;
+}
+.m-right h2, .m-left h2{
+	color: #3177be;
+	text-shadow: 2px 2px 2px #bebebe;
+}
+footer{
+	height: 25px;
+	background-color: #044470;
+	color: #ffffff;
+	padding: 10px;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+nav ul{
+	float: right;
+	margin-top: 17px;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 10px;
+	background:  #044470;
+	color: #ffffff;
+	border-right: 1px solid #ffffff;
+}
+nav ul li a:hover{
+	background: #bebebe;
+	color: #742d25;
 }
