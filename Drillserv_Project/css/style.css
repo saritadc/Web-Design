@@ -1,0 +1,271 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+body{
+	font-family: Verdana
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.top{
+	height: 41px;
+	border-bottom: 1px solid #ccc;
+}
+.left{
+	float: left;
+}
+.left ul {
+	list-style: none;
+}
+.left ul li{
+	float: left;
+	padding: 11px 15px;
+	border-right: 1px solid #ccc;
+
+}
+.rot{
+	transform: rotate(120deg);
+}
+.right{
+	float: right;
+}
+.right ul{
+	list-style: none;
+}
+.right ul li{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 11px 15px;
+}
+header{
+	min-height: 90px;
+}
+.logo{
+	padding-top: 20px;
+	float: left;
+}
+nav{
+	float: right;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding-top: 30px;
+}
+nav ul li a{
+	padding: 20px;
+	color: green;
+	text-transform: uppercase;
+	font-weight: 700px;
+}
+.banner{
+	height: 660px;
+	background: url(../images/slider.jpg);
+	background-size: cover;
+}
+.caption{
+	text-align: center;
+	color: #fff;
+	padding-top: 250px;
+}
+.caption h1{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+.read{
+	border: 1px solid #fff;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+}
+.read:hover{
+	color: #848484;
+	opacity: 0.9;
+}
+.welcome{
+	margin-top: 60px;
+	text-align: center;
+	overflow: hidden;
+}
+.one{
+	width: 360px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 45px;
+}
+.desk{
+	font-size: 130px;
+	color: #016E44;
+}
+.one h4{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.readmore{
+	background: green;
+	color: #fff;
+	padding: 5px 25px;
+	display: inline-block;
+	margin-top: 30px;
+}
+.service{
+	background: #ccc;
+	min-height: 500px;
+	padding-top: 30px;
+	margin-top: 20px;
+}
+.pkt{
+	width: 285px;
+	height: 200px;
+	background: green;
+	position: relative;
+	float: left;
+}
+.pkt::before{
+	content: "";
+	left: 284px;
+	top: 50%;
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-left: 10px solid green;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+.pkt1{
+	width: 285px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+.pkt1 img{
+	height: 100%;
+	width: 100%;
+	transition: 2s;
+}
+.pkt1 img:hover{
+	transform: scale(2);
+}
+.pkt2{
+	width: 285px;
+	height: 200px;
+	background: green;
+	position: relative;
+	float: left;
+}
+.pkt2::before{
+	content: "";
+	right: 284px;
+	top: 50%;
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-right: 10px solid green;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+.sub{
+	background: #000;
+	color: #ccc;
+	height: 118px;
+	padding: 20px;
+}
+.left h3{
+	font-weight: normal;
+}
+.left p{
+	font-size: 12px;
+}
+.right input[type = text]{
+			height: 35px;
+			width: 350px;
+			border-radius: 30px 0px 0px 30px;
+			padding-left: 10px;
+			border: 0px;
+}
+.right input[type = submit]{
+	height: 35px;
+	width: 100px;
+	background: green;
+	color: #fff;
+	padding: 10px;
+	border-radius: 0px 30px 30px 0px;
+	border: 0px;
+	margin-left: -10px;
+}
+.contact{height:475px;}
+.contact h1{
+	color: #3b3a3a;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: normal;
+	padding-bottom:51px;}
+.detail{
+		height:277px; 
+		width:557px;
+		float: left;
+		margin-left: 15px;} 
+.map{
+	height:277px; 
+	width:557px;
+	float: right;
+	margin-right:15px;}
+.facebook{
+		font-size: 37px;
+		padding-right: 12px;
+		border-radius: 2px 2px 2px 2px;}
+.footer{
+		height:80px;
+		text-align: center;
+		background: #000;
+		margin-bottom: 20px;
+		border-radius: 2px 2px 2px 2px;}
+.copyright{
+			float: left;
+			color: #fff;
+			padding-top: 34px;
+			padding-left: 15px;
+			font-size: 14px;
+			font-weight: normal;}
+.features{float: right;}
+.features ul{list-style: none;}
+.features ul li{
+		float: left;
+		color: #fff;
+		font-size: 14px;
+		padding-top: 34px;
+		padding-right: 15px;}
+.detail input[type=text]{
+	height: 37px;
+	width: 260px;
+	border:0px;
+	float: left;
+	color:#999999;
+	background: #eeeeee;
+	padding-left: 10px;
+	margin-right: 13px;}		
+.detail input[type=email]{
+	height: 37px;
+	width: 260px;
+	border:0px;
+	color:#999999;
+	background: #eeeeee;
+	padding-left: 10px;}
+.detail input[type=message]{
+	height: 180px;
+	width: 547px;
+	border:0px;
+	color:#999999;
+	background: #eeeeee;
+	padding-left: 10px; 
+	margin-top: 10px;}
+.detail input[type=submit]{
+	height: 37px;
+	width: 140px;
+	border:0px;
+	color:#fff;
+	border-radius: 1px 1px 1px 1px;
+	font-weight: normal;
+	background: #f7ce4f;
+	margin-top: 10px;}			
