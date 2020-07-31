@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -99,17 +99,18 @@ nav{
 }
 .font-medium{
     font-style: normal;
+    font-weight: normal;
     font-size: 36.4px;
     line-height: 43px;
     color: #3C4858;
 }
 .font-small{
-    
     font-style: normal;
     font-weight: 300;
-    font-size: 17.5px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 16px;
     color: #999999;
+
 }
 .product-title{
     padding-bottom: 38px;;
@@ -132,16 +133,46 @@ nav{
 
 }
 .member-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.2px;
     line-height: 21px;
-    color: #3C4858;
     padding-bottom: 7px;;
 }
 .member-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.65px;
+    line-height: 16px;
     padding-bottom: 34px;
+    color: #777777;
+
 }
 .icons{
     margin-top: 25px;
 }
 .icon{
     padding-right: 29px;
+}
+.contact-title{
+    margin-top: 185px;
+}
+.font-medium-small{
+   font-style: normal;
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}
+input{
+    width: 100%;
+}
+input[type=text], input[type=email]  {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(226, 223, 223);
 }
