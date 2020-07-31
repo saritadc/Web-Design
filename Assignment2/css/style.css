@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-header{
+    width: 425px;
+    height: 664px;
+    background: url(../img/bgheader.png);
+}
+.header-logo{
+    text-decoration: none;
+    color: white;
+}
+.top-header{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 15px 30px 25px;
+    position: relative;
+}
+.left-header{
+    float: left;
+}
+.right-header{
+    float: right;
+}
+nav{
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background: #FFFFFF;
+}
+.font-style{
+    font-size: 18px;
+    color: white;
+}
+.font-large{
+    font-weight: 500;
+    font-size: 53.2px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.paragraph-font{
+    font-weight: normal;
+    font-size: 18.2px;
+    line-height: 21px;
+}
+.page-title{
+    padding: 112px 63px 9px 17px;
+}
+
+.paragraph-padding{
+    padding: 0px 27px 12px 14px;
+}
+.button a{
+    /* width: 179px;
+    height: 54px;    */
+    background: #F44336;
+    box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    text-align: center;
+    padding: 19px 34px 19px 54px;
+    text-decoration: none;
+    color: white;
+}
+.button{
+    margin: 42px 30px 24px 16px;
+}
+.iconplay{
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.bg-container{
+    width: 425px;
+    height: 4442px;
+    background: rgba(10, 10, 10, 0.4);
+}
+.container{
+    width: 405px;
+    height: 3718px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2), 0px 2px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+    position: relative;
+    top: -50px;
+    left: 10px;
+    vertical-align: middle;
+    
+}
+.product{
+    padding-top: 94px;
+
+}
+.container-padding{
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.font-medium{
+    font-style: normal;
+    font-size: 36.4px;
+    line-height: 43px;
+    color: #3C4858;
+}
+.font-small{
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.5px;
+    line-height: 21px;
+    color: #999999;
+}
+.product-title{
+    padding-bottom: 38px;;
+}
+.product-info{
+    padding-bottom: 162px;
+}
+.feature{
+    padding-bottom: 110px;
+}
+.feature-icon{
+    padding-bottom: 31px;
+}
+.feature-name{
+    padding-bottom: 18px;
+}
+.team-title{
+    margin-top: 100px;
+    padding-bottom: 86px;
+
+}
+.member-name{
+    line-height: 21px;
+    color: #3C4858;
+    padding-bottom: 7px;;
+}
+.member-title{
+    padding-bottom: 34px;
+}
+.icons{
+    margin-top: 25px;
+}
+.icon{
+    padding-right: 29px;
+}
